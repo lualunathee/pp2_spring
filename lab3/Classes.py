@@ -110,7 +110,7 @@ def prime(num):
     return True
 
 # Test list
-num_list = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+num_list = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
 primeNumbers = list(filter(lambda x: prime(x), num_list))
 

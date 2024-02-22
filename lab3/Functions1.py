@@ -128,7 +128,7 @@ def guess():
   numgues = 0
   num = random.randint(1, 20)
   a = input("Hello! What is your name?")
-  b = input("Well, KBTU, I am thinking of a number between 1 and 20.")
+  b = input("Well, {a}, I am thinking of a number between 1 and 20.")
   while True:
     c = int(input("Take a guess. "))
     numgues += 1
