@@ -1,1 +1,0 @@
-    another_list.fill((255, 255, 255))
