@@ -7,7 +7,15 @@ if n:
     print("match")
 else:
     print("doesn't match")
-
+    
+#def
+import re
+n = input()
+n = re.search("^(777|771|705)\d{7}$")
+if n:
+    print("match")
+else:
+    print("doesn't match")
     
 #2
 n = input()

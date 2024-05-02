@@ -67,7 +67,7 @@ import string
 alphabet = string.ascii_uppercase
 for letter in alphabet:
     with open(letter+'.txt', 'w') as file:
-        file.remove(letter)
+        os.remove(letter)
         
 #7
 with open('file1.txt', 'r') as fileone, open('file2.txt', 'a') as file2:
